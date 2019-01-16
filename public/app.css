@@ -211,6 +211,8 @@ header h1 {
   margin-left: 10px;
 }
 
+/* Animation */
+
 .slide-enter {
   transform: translateX(-100%);
 }
@@ -235,5 +237,5 @@ header h1 {
 
 .slide-appear.slide-appear-active {
   opacity: 1;
-  transition: all 500ms;
+  transition: all 1000ms;
 }
